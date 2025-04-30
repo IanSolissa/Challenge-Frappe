@@ -1,0 +1,6 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_e5f07155fcd7befb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e5f07155fcd7befb | /usr/bin/gzip >> ./localhost/private/backups/20250430_120003-localhost-database.sql.gz
+
+Backup Summary for localhost at 2025-04-30 12:00:05.170599
+Config  : /home/lisian/development/frappe-bench/sites/localhost/private/backups/20250430_120003-localhost-site_config_backup.json 168.0B
+Database: /home/lisian/development/frappe-bench/sites/localhost/private/backups/20250430_120003-localhost-database.sql.gz 250.1KiB
+Backup for Site localhost has been successfully completed

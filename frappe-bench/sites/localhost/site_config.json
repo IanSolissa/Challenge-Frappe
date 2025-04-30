@@ -1,0 +1,8 @@
+{
+ "db_name": "_e5f07155fcd7befb",
+ "db_password": "FWrb1B2NDTb5ZN8I",
+ "db_type": "mariadb",
+ "db_user": "_e5f07155fcd7befb",
+ "developer_mode": 1,
+ "ignore_csrf": 1
+}
